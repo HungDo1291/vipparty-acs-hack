@@ -5,7 +5,7 @@ import Participant from './Participant';
 const Room = ({ roomName, token, handleLogout }) => {
 
 var jwt=require('jsonwebtoken');
-var decoded=jwt.decode(tokwen);
+var decoded=jwt.decode(token);
 var identify=decoded.grants.identity;
 
 console.log(decoded.grants.identity);
