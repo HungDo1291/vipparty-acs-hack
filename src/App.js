@@ -14,7 +14,7 @@ const App = () => {
       <main>
         <VideoChat />
         <br></br>
-        <ChatApp />
+        <ChatApp username={localStorage.getItem("user")}/>
       </main>
       <footer>
         <p>
@@ -22,7 +22,7 @@ const App = () => {
           <span role="img" aria-label="React">
             ⚛️
           </span>{' '}
-          by <a href="https://twitter.com/philnash">philnash</a>
+          by <a>ACS HACKATHON - VIP PARTY</a>
         </p>
       </footer>
     </div>

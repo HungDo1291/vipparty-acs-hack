@@ -12,8 +12,11 @@ class ChatApp extends Component {
     };
 
     this.user = {
+      // id: props.username,
+      // name: props.username
       id: props.username,
       name: props.username
+
     };
 
     this.setupChatClient = this.setupChatClient.bind(this);

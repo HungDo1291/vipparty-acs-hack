@@ -29,6 +29,7 @@ const VideoChat = () => {
         }
       }).then(res => res.json());
       setToken(data.token);
+      localStorage.setItem("user",username);
     },
     [roomName, username]
   );
