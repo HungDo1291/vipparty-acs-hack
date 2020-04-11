@@ -99,6 +99,11 @@ button:hover {
 .local-participant {
   text-align: center;
   margin-bottom: 2em;
+  margin-right:10px;
+  display:inline-grid;
+  grid-auto-rows:auto;
+  max-width: 300px;
+
 }
 .remote-participants {
   display: flex;
@@ -140,4 +145,12 @@ footer {
 
 footer a {
   color: #fff;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
